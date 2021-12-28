@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start">
+
+    <View
+        android:id="@+id/d5e6fe1101a"
+        android:layout_width="1024dp"
+        android:layout_height="768dp"
+        android:layout_marginStart="-367dp"
+        android:background="@drawable/image" />
+
+
+    <ImageButton
+        android:id="@+id/rectangle_2"
+        android:layout_width="106dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="523dp"
+        android:background="@drawable/rectangle_26"
+        android:contentDescription="@string/todo" />
+    <ImageButton
+        android:id="@+id/rectangle_3"
+        android:layout_width="106dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="257dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="523dp"
+        android:background="@drawable/rectangle_26"
+        android:contentDescription="@string/todo" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button1"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/rectangle_2"
+        app:layout_anchorGravity="center" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button2"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_anchor="@+id/rectangle_3"
+        app:layout_anchorGravity="center" />
+
+    <ImageView
+        android:id="@+id/rectangle_5"
+        android:layout_width="315dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="439dp"
+        android:background="@drawable/rectangle_25"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_passwor"
+        app:layout_anchor="@+id/rectangle_5"
+        app:layout_anchorGravity="center"
+        android:textSize="18sp"
+        android:textColor="#EE03D6"
+        />
+    <View
+        android:id="@+id/rectangle_6"
+        android:layout_width="315dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="355dp"
+        android:background="@drawable/rectangle_25"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_login"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="173dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="374dp"
+        android:textSize="18sp"
+        android:textColor="#EE03D6"/>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/rectangle_5"
+        app:layout_anchorGravity="start|center"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/vector"
+        android:contentDescription="@string/todo7" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="374dp"
+        app:srcCompat="@drawable/vector1"
+        android:contentDescription="@string/todo6" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="22dp"
+        android:text="ПРИВЕТ, АНДРЕЙ!"
+        android:textColor="@color/black"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arrow"
+        android:layout_marginLeft="13.85dp"
+        android:layout_marginTop="688.23dp"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/camera"
+        android:layout_marginLeft="360.75dp"
+        android:layout_marginTop="683.75dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

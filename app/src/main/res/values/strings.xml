@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Uryashev-v-08</string>
+    <string name="title_activity_start">start</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="todo">TODO</string>
+    <string name="text_button1">ВЫХОД</string>
+    <string name="todo1">TODO</string>
+    <string name="text_button2">ВХОД</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="some_id" />
+    <string name="text_password">TextView</string>
+    <string name="text_passwor">ПАРОЛЬ</string>
+    <string name="text_login">ЛОГИН</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="text_welcome">ПРИВЕТ, АНДРЕЙ</string>
+    <string name="todo8">TODO</string>
+    <string name="title_activity_gallery">gallery</string>
+    <string name="text_contact">Контакты</string>
+    <string name="Find_contact">Искать в 61 контакте</string>
+    <string name="anna">Аня</string>
+    <string name="albina">Альбина</string>
+    <string name="anton">Антон</string>
+    <string name="grandma">Бабушка</string>
+    <string name="boris">Борис</string>
+    <string name="todo9">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo12">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="title_activity_number">number</string>
+    <string name="title_activity_gallerry">Gallerry</string>
+    <string name="title_activity_gal">Gal</string>
+    <string name="todo14">TODO</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="star">*</string>
+    <string name="_0">0</string>
+    <string name="_11">#</string>
+</resources>
